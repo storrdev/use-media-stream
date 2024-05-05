@@ -1,6 +1,6 @@
 import { useCallback, useRef, useState } from 'react';
 import { REQUEST_STATES } from './constants';
-import merge from 'deepmerge';
+import { merge } from 'ts-deepmerge';
 
 /**
  * Represents the configuration for using a media stream

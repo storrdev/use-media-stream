@@ -16,7 +16,6 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
     "prepare": "npm run build"
-
   },
   "engines": {
     "node": ">=16"
@@ -45,7 +44,6 @@
     "url": "git+https://github.com/kothariji/use-media-stream.git"
   },
   "peerDependencies": {
-    "deepmerge": "^4.3.1",
     "react": ">=16"
   },
   "devDependencies": {
@@ -54,5 +52,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "ts-deepmerge": "^7.0.0"
   }
 }
